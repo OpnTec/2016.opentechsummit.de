@@ -1,57 +1,57 @@
 { "tracks":[
   {
     "py/object": "models.Track",
-    "key_color": "a",
+    "key_color": "#3DC8C3",
     "name": "Galerie",
-    "header_line": 1,
-    "track_image_url": "http://lorempixel.com/400/200",
-    "id": 1,
-    "gid": "files/Galerie.tsv",
-    "location": "a",
-    "order": 1
-  },
-  {
-    "py/object": "models.Track",
-    "key_color": "a",
-    "name": "LightingTalks",
-    "header_line": 1,
+    "header_line": 2,
     "track_image_url": "http://lorempixel.com/400/200",
     "id": 2,
-    "gid": "files/LightningTalks.tsv",
-    "location": "a",
-    "order": 1
+    "gid": "11336237",
+    "location": "Level 1",
+    "order": 2
   },
   {
     "py/object": "models.Track",
-    "key_color": "a",
-    "name": "Workshops",
-    "header_line": 1,
+    "key_color": "#3DC8C3",
+    "name": "Lightning Talks",
+    "header_line": 2,
     "track_image_url": "http://lorempixel.com/400/200",
     "id": 3,
-    "gid": "files/Workshops.tsv",
-    "location": "a",
-    "order": 1
+    "gid": "1549016393",
+    "location": "Level 2",
+    "order": 3
   },
   {
     "py/object": "models.Track",
-    "key_color": "a",
+    "key_color": "#3DC8C3",
+    "name": "Workshops",
+    "header_line": 2,
+    "track_image_url": "http://lorempixel.com/400/200",
+    "id": 4,
+    "gid": "1407536099",
+    "location": "Level 3",
+    "order": 4
+  },
+  {
+    "py/object": "models.Track",
+    "key_color": "#3DC8C3",
     "name": "Zertifizierung",
-    "header_line": 1,
+    "header_line": 2,
     "track_image_url": "http://lorempixel.com/400/200",
-    "id": 4,
-    "gid": "files/Zertifizierung.tsv",
-    "location": "a",
-    "order": 1
+    "id": 5,
+    "gid": "1996047265",
+    "location": "Level 4",
+    "order": 5
   },
   {
     "py/object": "models.Track",
-    "key_color": "a",
+    "key_color": "#3DC8C3",
     "name": "MakerSpace",
-    "header_line": 1,
+    "header_line": 2,
     "track_image_url": "http://lorempixel.com/400/200",
-    "id": 4,
-    "gid": "files/MakerSpace.tsv",
-    "location": "a",
-    "order": 1
+    "id": 6,
+    "gid": "1760580974",
+    "location": "Level 5",
+    "order": 6
   }
 ]}
