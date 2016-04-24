@@ -11,13 +11,15 @@
     "description": "Die Erfindung und Verbreitung des Internet hat die Welt enger zusammenr\u00fccken lassen. L\u00e4ngst ist aus einem einst lokalen, regionalen oder bestenfalls nationalen Wettbewerb ein globaler Wettbewerb geworden. Stetig fallende Kosten der Informationsverarbeitung durch intensive Vernetzung und Erweiterung der \u00dcbertragungsbandbreiten sorgt daf\u00fcr, dass die gespeicherte Informationsmenge rasant w\u00e4chst.  Sie w\u00e4chst dabei erheblich schneller als die Weltbev\u00f6lkerung bzw. die Anzahl verf\u00fcgbarer Fachkr\u00e4fte, die sich mit den technischen  L\u00f6sungen der Informationsverarbeitung befassen. Die Informationstechnologiebranche ist diejenige Branche, die sich stellvertretend f\u00fcr alle anderen Branchen mit den technologischen Anforderungen der Informations- und Wissensverarbeitung auseinandersetzt. Daneben erzeugt und verarbeitet sie selbst im Rahmen ihrer Leistungserbringung gro\u00dfe Mengen komplexen Wissens. Im Maschinenraum der Informationstechnologiebranche planen, entwickeln, betreiben und warten Softwareentwickler, Tester, Administratoren und Projektmanager, Software, deren Erstellung auf Grund fachlicher Anforderungen bzw. eines entsprechenden Marktpotentials notwendig oder sinnvoll erscheint.  Was inbesondere in den 1990er Jahren noch als verr\u00fcckt galt, n\u00e4mlich Wissen in Form von Quellcode uns selbst ganze, komplexe Anwendungssysteme zu explizieren und f\u00fcr jedermann zug\u00e4nglich und nutzbar zu teilen (Open Source bzw. Free Software), hat zusammen mit dem Erfolg prominenter Projekte (z.B. Linux, LibreOffice, Firefox) und dem Ausbau weltweiter Kommunikationsnetze eine globale Erfolgsgeschichte geschrieben. Bis vor wenigen Jahren hielten die meisten Fachleute es f\u00fcr undenkbar, dass auch grundlegenste betriebliche Anwendungen, sogenannte Enterprise Resource Planning Systeme in diesem Modus entwickelt und betrieben werden k\u00f6nnen. U.a. das Open Source ERP-System Odoo tritt seit geraumer Zeit den Gegenbeweis an. Um den belgischen Hersteller haben sich in den vergangenen Jahren mehrere hundert Integrationspartner weltweit und eine Gruppe von \u00fcber 2 Mio. aktive Nutzer in einer Community formiert. Der Vortrag fast die seit 2008 andauernde Entwicklung von Odoo (zuvor als OpenERP bekannt) aus Sicht eines Integrationspartners zusammen und stellt dabei die Rolle des Wissensaustausches, \u00f6konomischer Interessen des Herstellers und der Integrationspartner sowie Erfolgs- und Risikofaktoren eines weltweit erfolgreichen Open Source Projektes am Beispiel dar. Insbesondere wird dabei auch auf den erkennbaren Trend der Professionalisierung erfolgreicher Open Source Projekte und Dual Licensing eingegangen. ",
     "title": "Die Rolle von Wissen, \u00f6konomischer Faktoren und Professionalisierung in erfolgreichen Open Source Projekten am Beispiel von Odoo",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 68502,
-    "location": "a",
-    "type": "Talk of 25 minutes"
+    "start_time": "2016-05-04T22:00:00+00:00",
+    "session_id": "OT-01",
+    "location": "Level 1",
+    "type": "Talk of 25 minutes",
+    "end_time": "2016-05-04T22:30:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -31,13 +33,15 @@
     "description": "Modellierung von rechtlichen Prozessen.  Anforderungen und L\u00f6sungsans\u00e4tze im Vergleich.",
     "title": "smart contracts [th]at work",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 3523,
-    "location": "a",
-    "type": "Talk of 25 minutes"
+    "start_time": "2016-05-04T22:20:00+00:00",
+    "session_id": "OT-02",
+    "location": "Level 1",
+    "type": "Talk of 25 minutes",
+    "end_time": "2016-05-04T22:50:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -51,13 +55,15 @@
     "description": "In early 2016, we started the Community Design initative at Mozilla, allowing all volunteer contributors to work closer with staff and get involved in projects, which before were accessible only to staff at Mozilla. This caters the needs of both community and staff, in a decentralized way.",
     "title": "Community Design at Mozilla  ",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 77739,
-    "location": "a",
-    "type": "Talk of 25 minutes"
+    "start_time": "2016-05-04T22:40:00+00:00",
+    "session_id": "OT-65",
+    "location": "Level 1",
+    "type": "Talk of 25 minutes",
+    "end_time": "2016-05-04T23:10:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -71,12 +77,12 @@
     "description": "Wikidata is a repository of free knowledge in a structured form that contains pieces of information about everything on Wikipedia and more such as number of inhabitants of a country, geodata, historical dates, and others.  It is a free knowledge base that can be edited by humans and machines  alike and powers Wikimedia projects such as Wikipedia.  The Wikidata Query Service allows everyone to tap into this data and query information with SPARQL, find out relationships, and create beautiful visualizations.",
     "title": "Mining the knowledge of the world with Wikidata",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 9830,
-    "location": "a",
+    "session_id": "OT-03",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -91,12 +97,12 @@
     "description": "It does not make sense to mourn about clouds just being other peoples computers. With Kubernetes (k8s) and Docker you can easily create your own public cloud running on your cloud providers computers, or with a little more effort,  your own *private* cloud running on or your *own* hardware.  There has been evolved an entire ecosystem for software deployed in  containers and for software components securing privacy in the k8s cloud.  With CoreOS as an immutable operating system running immutable containers you could get a higher integrity level build in your application by design.",
     "title": "Creating Service Clouds with Kubernetes, CoreOS, Container and Co ",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 14114,
-    "location": "a",
+    "session_id": "OT-04",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -111,12 +117,12 @@
     "description": "GLAMorous Importer wanted: More and more art & culture heritage keeping institutions as galleries, libraries archives or museums, aka GLAM, make large quantities of their collections accessible to further reuse. Often enough the content would be easier to reuse for apps and augmented reality if transferred to Wikimedia Commons. The talk intends to spur initiatives to transfer open data of the GLAMorous kind to Wikimedia Commons. It shows the opportunities, the hurdles and provides hints where to start. It is not a technical instruction how to do it, but a call for action to start to do it.",
     "title": "GLAMorous Importer wanted",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 30588,
-    "location": "a",
+    "session_id": "OT-05",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -131,12 +137,12 @@
     "description": "Auch 2015 konnten junge Hacker_innen bei Jugend Hackt zeigen, wie sie mit Code die Welt verbessern. In 5 Events mit fast 300 Teilnehmenden und \u00fcber 50 entstandenen Projekten gab es eine Vielzahl an spannenden, lustigen und auch wegweisenden Ideen und Prototypen, wie die Junghacker_innen ihre F\u00e4higkeiten f\u00fcr eine positive Gesellschaft einsetzen. Einige dieser Projekte werden hier vorgestellt und k\u00f6nnen mit den jungen Entwicklern selbst diskutiert werden. Jugend Hackt ist ein Hackathon f\u00fcr Jugendliche zwischen 12 und 18 Jahren, welcher seit 2013 von der Open Knowledge Foundation veranstaltet wird.",
     "title": "Jugend Hackt",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 44457,
-    "location": "a",
+    "session_id": "OT-66",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -151,12 +157,12 @@
     "description": "Nach einer kurzen Einleitung, was Open Data ist, schauen wir gemeinsam in mehrere Open Data Portale hinein. Welche Daten werden angeboten, wie kann man sie sich anschauen und was daraus schlu\u00dffolgern? Unterf\u00fcttert mit jede Menge Anwendungsbeispielen aus der Community und Ergebnissen von Hackathons soll die Lust auf Open Data geweckt werden.",
     "title": "Open Data f\u00fcr Dummies - oder - Wie nutze ich offene Daten",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 3436,
-    "location": "a",
+    "session_id": "OT-06",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -171,12 +177,12 @@
     "description": "Technology and Society Panel",
     "title": "Open Technology and Society Panel",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 87831,
-    "location": "a",
+    "session_id": "OT-08",
+    "location": "Level 1",
     "type": "Panel"
   },
   {
@@ -191,12 +197,12 @@
     "description": "Authenticated Anonymity by Math Ruediger Weis, Bruno Kirschner  Number theory provides us many tools to create sometimes really surprising technologies for social communication. We have learned that math might be our last defence line against a real existing all-encompassing surveillance. One central challenge in this conflict is to combine authentication and anonymity. Since a lot of these technologies have not been brought to the implemented world yet, we want to present a proposal to integrate blind signature schemes over elliptic curves into Open PGP. ",
     "title": "Authenticated Anonymity by Math",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 75122,
-    "location": "a",
+    "session_id": "OT-07",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -211,12 +217,12 @@
     "description": "Open Source Circular Design is so ugly! Is it? Or is it just a new paradigm for design we are going to explore? Funnier, sexier, more elegant ... that was yesterday (or is today). But in the future maybe it will be modular, hackable, reusable and open ...  This talk will be a reading of a letter exchange that happened between a guy that is a critic of open design and loves shiny apple stuff and a guy that tries to explore open source circular design. The letter exchanges brings up the key arguments of both sides. | It mentions and works in the context of the Open Source Circular Economy Days",
     "title": "Open Source Circular Design is so Ugly! / Open Source Circular Design ist unglaublich h\u00e4sslich!",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 45591,
-    "location": "a",
+    "session_id": "OT-09",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -231,12 +237,12 @@
     "description": "If you have ever been online, watched a movie or taken a medicine you have been a user of information. Today information in the form of software, databases and innovations is becoming more important than ever before. Information is becoming main thing we make, trade and use.  This is a new world being built on \"bits\". Its virtual nature makes it different from the physical world of bread and land and cars which can only have one user at a time. By contrast, information can be used by many at the same time.  The implications of this are huge. It makes a world of open information both possible and desirable -- that is a world in which all public information can be openly and freely used, shared and built on. This is a world where no-one is denied access to life-saving medicines because of cost, where everyone has access to our cultural heritage, where artists, innovators and creators are paid more and more fairly.  But getting there will not be easy. Dystopia is the default: if we do nothing we will get a world of exclusion and control where information is made to play by the same rules as our old physical one using \"intellectual property\" monopoly rights like copyright and patents.  In this talk we will explore the road ahead and explain why we can and must create an open future. The talk is for anyone interested in the coming information age and its implications for the politics, law and economics of this next century.",
     "title": "Making an Open Information Age",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 94630,
-    "location": "a",
+    "session_id": "OT-10",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -251,12 +257,12 @@
     "description": "Matthias und Nora vom Code Week Team stellen den Code Week Award vor und zeigen einen Live-Hack. Wir programmieren ein Computerspiel in nur 15 Minuten und spielen mit euch. Wer gewinnt, bekommt von uns einen \u00dcberraschungs-Preis.  Unter dem Motto \u201cJede Woche ist Code Week\u201d f\u00f6rdert der Code Week Award spielerische und kreative Workshop-Formate und digitale Kompetenzen bei Kindern und Jugendlichen in ganz Deutschland. Der Award wurde ankn\u00fcpfend an den Erfolg der EU Code Week im Oktober 2014 erstmalig von der Technologiestiftung Berlin und dem Design Research Lab der Universit\u00e4t der K\u00fcnste Berlin ausgeschrieben und durch die Unterst\u00fctzung von Samsung ins Leben gerufen. 2016 findet bereits die zweite Ausgabe des Awards statt, der in den vergangenen beiden Jahren bereits hunderte Kindern und Jugendlichen einen kreativen Umgang mit digitalen Technologien erm\u00f6glicht hat. ",
     "title": "Code Week Award Live-Hack",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 2015,
-    "location": "a",
+    "session_id": "OT-14",
+    "location": "Level 1",
     "type": "Talk mit Live-Hack (20 Minuten)"
   },
   {
@@ -271,12 +277,12 @@
     "description": "Open technologies play a very important role in advancing some of the most empowering technologies of today. Explore that role, specifically pertaining to Geospatial data and the FreeGeo API, and discover how you can help advance the technology and availability of geospatial mapping and other services. ",
     "title": "Open Data: Geospatial Heaven",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 61318,
-    "location": "a",
+    "session_id": "OT-57",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -291,12 +297,12 @@
     "description": "Sind die Kommentare noch zu retten? Wie l\u00e4sst man Nutzer im Internet am besten zu Wort kommen? Und wie kommen wir dabei zu einer sachlicheren Debatte? Nutzerkommentare sind sprichw\u00f6rtliches Reservoir f\u00fcr Hass und Beleidigungen. Viele Nachrichtenportale und Blogs haben inzwischen ihre Kommentarbereiche geschlossen oder stark eingeschr\u00e4nkt.  Ist das wirklich der Weisheit letzter Schluss? Immer wieder gibt es Versuche, durch die Anpassung der Nutzeroberfl\u00e4che und H\u00fcrden bei der Anmeldung zu einer sachlicheren Debatte zu kommen. Was gibt es f\u00fcr Ans\u00e4tze? Sind diese erfolgreich? Und was ",
     "title": "Nutzerkommentare im Internet",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 489,
-    "location": "a",
+    "session_id": "OT-11",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -311,12 +317,12 @@
     "description": "TinyBoy Project is an education project started at 2011. The talk is about the follow up of the project, what we did and the progress.  To show the new version of the TinyBoy, TinyBoy2. And to discuss about how to integrate into STEAM.",
     "title": "TinyBoy Project - a 3D printer for education",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 32933,
-    "location": "a",
+    "session_id": "OT-64",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -331,12 +337,12 @@
     "description": "Based on the analysis of more than 70 significant open source product development projects, this contribution intends to give an overview of the current state of this emerging practice. The following questions will be particularly addressed:  - How projects use the public space offered by the internet and the existing sharing online platforms in order to stimulate attention and contributions from online communities?  - What are the gaps between actual practices and best practices formulated by the open source hardware association?  - What do these gaps reveal about the intention of open source product development projects?  - What different types of open source product development projects can be characterized? This research is lead in the context of the French-German project \"OPEN!-Methods and tools for community-based product development\" involving among others the Technische Universit\u00e4t Berlin and the University of Grenoble. This project is aimed at understanding and formalizing the emerging practice of community-based product development and at developing methodological and IT tools in order to support these practices.",
     "title": "Current state of practices in open source hardware",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 12443,
-    "location": "a",
+    "session_id": "OT-13",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -351,12 +357,12 @@
     "description": "picoTCP is an open source TCP/IP stack implementation targetted at embedded devices. Its focusses lie in Modularity, Portability and Quality.  During this talk you'll get introduced to picoTCP",
     "title": "picoTCP",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 88225,
-    "location": "a",
+    "session_id": "OT-12",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -371,12 +377,12 @@
     "description": "It is time to write a new Constitution for the EU. We need a participation platform to do this. There are two kinds of participatory e-democracy. The one that an authority has set-up where you trust them that justice, fairness and democratic correctness will be provided, demagogy and inflammatory behavior be dealt with by trustworthy admins you never heard or saw. And the other one where the participants themselves are empowered to do this. Which approach do you find more appropriate for the task? Has this been done before? What went wrong in past attempts?",
     "title": "Making participation: How to put participants in charge of their own e-democracy platform",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 58135,
-    "location": "a",
+    "session_id": "OT-16",
+    "location": "Level 1",
     "type": "Talk of 25 minutes"
   },
   {
@@ -391,12 +397,12 @@
     "description": "We would like to shortly introduce the Heart of Code, a Berlin based hackspace for women*. ",
     "title": "Heart Of Code - a hackspace for women* in Berlin",
     "track": {
-      "order": 1,
+      "order": 2,
       "name": "Galerie",
-      "id": 1
+      "id": 2
     },
-    "session_id": 46203,
-    "location": "a",
+    "session_id": "OT-17",
+    "location": "Level 1",
     "type": "Lightning Talk (5-10 minutes)"
   },
   {
@@ -411,12 +417,12 @@
     "description": "More than 4.7 million Syrians have now fled the war and became refugees in other countries. Humanitarian aid is is usefull, but cannot replace civil rights or freedom of speech. The Berlin based independent project \"Syria on the Move\" gives a voice to syrian refugees and helps them to get in touch by establishing a webbased map tool. This allows refugees to upload their pictures, share experiences and comment on issues that really matter to them. ",
     "title": "Connecting Syrian refugees",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 15861,
-    "location": "a",
+    "session_id": "LT-1",
+    "location": "Level 2",
     "type": "Lightning Talk (5-10 minutes)"
   },
   {
@@ -431,12 +437,12 @@
     "description": "Applications, algorithms and devices have an intended use \u2013 which often is ignored: People use Excel as a database, images to send text, Dropbox to share code\u2026 Why don't they use the \u00bbright\u00ab tools?  Instead of pointing out that the users are wrong we want to show why these \u00bbmisuses\u00ab of systems make sense from the users perspective  nd why the people who use workarounds instead of the \u00bbright\u00ab tools are  hackers \u2013 without knowing it.",
     "title": "In praise of workarounds",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 17251,
-    "location": "a",
+    "session_id": "LT-2",
+    "location": "Level 2",
     "type": "Lightning Talk (5-10 minutes)"
   },
   {
@@ -451,12 +457,12 @@
     "description": "What is a VC? What are the advantages of VC? What are the desadvantages of VC? Bonus: 5 models to raise money without VC",
     "title": "aising money with Venture Capitalist",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 71707,
-    "location": "a",
+    "session_id": "LT-3",
+    "location": "Level 2",
     "type": "Lightning Talk (5-10 minutes)"
   },
   {
@@ -465,12 +471,12 @@
     "description": "",
     "title": "",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 50312,
-    "location": "a",
+    "session_id": "LT-4",
+    "location": "Level 2",
     "type": ""
   },
   {
@@ -479,12 +485,12 @@
     "description": "",
     "title": "",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 90731,
-    "location": "a",
+    "session_id": "LT-5",
+    "location": "Level 2",
     "type": ""
   },
   {
@@ -493,12 +499,12 @@
     "description": "",
     "title": "",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 52514,
-    "location": "a",
+    "session_id": "LT-6",
+    "location": "Level 2",
     "type": ""
   },
   {
@@ -507,12 +513,12 @@
     "description": "",
     "title": "",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 2280,
-    "location": "a",
+    "session_id": "LT-7",
+    "location": "Level 2",
     "type": ""
   },
   {
@@ -521,12 +527,12 @@
     "description": "",
     "title": "",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 44035,
-    "location": "a",
+    "session_id": "LT-8",
+    "location": "Level 2",
     "type": ""
   },
   {
@@ -535,12 +541,12 @@
     "description": "",
     "title": "",
     "track": {
-      "order": 1,
-      "name": "LightingTalks",
-      "id": 2
+      "order": 3,
+      "name": "Lightning Talks",
+      "id": 3
     },
-    "session_id": 20302,
-    "location": "a",
+    "session_id": "LT-9",
+    "location": "Level 2",
     "type": ""
   },
   {
@@ -555,13 +561,15 @@
     "description": "Paper Prototyping is an easy-to-use method for creating, developing and testing concepts for applications and websites.   Everybody can work together \u2013 no programming skills are needed. If we want to try something new, we don't need to delete code or discuss if the library supports it: just draw and cut out the new feature!  As well we can easily do a usability test with our prototypes to get further input and check if the idea is going into the right direction. ",
     "title": "Workshop Paper Prototyping",
     "track": {
-      "order": 1,
+      "order": 4,
       "name": "Workshops",
-      "id": 3
+      "id": 4
     },
-    "session_id": 1420,
-    "location": "a",
-    "type": "Workshop, 2h"
+    "start_time": "2016-05-05T08:00:00+00:00",
+    "session_id": "W-1",
+    "location": "Level 3",
+    "type": "Workshop, 2h",
+    "end_time": "2016-05-05T08:30:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -575,13 +583,15 @@
     "description": "Keeping your data to yourself has become harder and harder. Luckily, there is a solution: ownCloud. At the workshops we will learn how to put your data on a server of your choosing while making it available to your devices wherever you are. File sync and share with others, music, picture and video galleries, mail, calendar and contacts apps and lots of more functionality in a modular, open source and easy to use PHP server app. ownCloud offers a web interface to all its functionality as well as access through webdav, CALDAV and CARDDAV, Ampache and through the mobile and desktop clients available for Win/Mac/Linux, Android/iOS/Blackberry and more platforms.   You want it? You can have it. If you don't have a server yet, consider bringing a Raspberry Pi 2, a Banana Pi or a cubietruck with the needed tools (SD card/power/etc). Or bring a laptop, old desktop or your SSH credentials to your VPS or home server and come set up your ownCloud at the OpenTechSummit!   In this workshop you'll be walked through the process and get hands-on help in installing and getting ownCloud up and running on your system.   A quick overview of how it will (most likely) work:   First a quick 'what is ownCloud' introduction. Then everybody (probably in pairs) gets a USB stick, SD card, development board and two network cables. The USB stick has a image to be put on the SD card. Then the Pi can be booted from it, connected to the network. I monitor the network and based on the MAC of the Pi I tell you your IP. From the laptop, you SSH into the Pi and install a web server and ownCloud. From your browser you then go and configure ownCloud.",
     "title": "Let's set up our ownCloud with Jos Poortvliet at the OpenTechSummit",
     "track": {
-      "order": 1,
+      "order": 4,
       "name": "Workshops",
-      "id": 3
+      "id": 4
     },
-    "session_id": 30885,
-    "location": "a",
-    "type": "Workshop"
+    "start_time": "2016-05-05T09:00:00+00:00",
+    "session_id": "W-2",
+    "location": "Level 3",
+    "type": "Workshop",
+    "end_time": "2016-05-05T09:30:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -595,12 +605,12 @@
     "description": "Audacity is a free and easy to use audio editor. It is almost as easy to use as your old cassette player, if you've ever had one. Within one hour you will pick up the basics that you need in order to produce your own podcast, radio show, mixtape, listening play or wild audio collage. Please bring your own laptop, headphones, if possible: a digital audio recorder or USB-mic and all the necessary cables and cards. You may download the software and the lame codec in advance under audacity.sourceforge.net!",
     "title": "Fast podcast production with audacity",
     "track": {
-      "order": 1,
+      "order": 4,
       "name": "Workshops",
-      "id": 3
+      "id": 4
     },
-    "session_id": 40513,
-    "location": "a",
+    "session_id": "W-3",
+    "location": "Level 3",
     "type": "Workshop"
   },
   {
@@ -615,12 +625,12 @@
     "description": "picoTCP is an open source TCP/IP stack implementation targeted at embedded devices. Its focusses lie in Modularity, Portability and Quality. During this workshop, we\u2019ll learn how to get picoTCP running on a Cortex M3 target. The end goal of the workshop, is to play a network version of the snake game.  Target audience: Experience with C is required   What we\u2019ll bring: * Development boards (Seeeduino Arch Pro) * USB cables * Ethernet cables for the boards * An Ethernet switch * Bootable USB sticks * Source code on a stick * Manuals for the workshop   What you should bring: * Brains ;-) * A laptop that can boot from USB or * A laptop with all the prerequisites installed (I really hope you\u2019ll be running an Ubuntu based system, or I won\u2019t be able to give much support) $ sudo apt-get install ncurses-base $ sudo apt-get install libncurses5-dev $ sudo apt-get -y install lib32z1 lib32ncurses5 lib32bz2-1.0 (we need some extra stuff for 64 bit) Get the cross compiler for your system (https://launchpad.net/gcc-arm-embedded/+download) Extract it in e.g. /usr/local/gcc-arm-none-eabi-4_9-2015q1/ Add compiler to your path (add export PATH=\"$PATH:/usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/\" to your ~/.bashrc file)   We\u2019ll need python too to program the boards: sudo apt-get -y install python sudo apt-get -y install python-pip sudo pip install --pre -U pyocd   Verify installation: $ pyocd-flashtool \u00e0 should tell you \u201cwaiting for a USB device connected\u201d $ arm-none-eabi-gcc \u2013v \u00e0 should give you the nice versions",
     "title": "Let's get a network version of the snake game running using picoTCP on a Cortex M3",
     "track": {
-      "order": 1,
+      "order": 4,
       "name": "Workshops",
-      "id": 3
+      "id": 4
     },
-    "session_id": 52241,
-    "location": "a",
+    "session_id": "W-4",
+    "location": "Level 3",
     "type": "Workshop"
   },
   {
@@ -635,13 +645,15 @@
     "description": "LPI-Pr\u00fcfung",
     "title": "LPI Zertifizierung",
     "track": {
-      "order": 1,
+      "order": 5,
       "name": "Zertifizierung",
-      "id": 4
+      "id": 5
     },
-    "session_id": 27467,
-    "location": "a",
-    "type": "Zertifizierung"
+    "start_time": "2016-05-05T09:00:00+00:00",
+    "session_id": "Z-1",
+    "location": "Level 4",
+    "type": "Zertifizierung",
+    "end_time": "2016-05-05T09:30:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -655,12 +667,12 @@
     "description": "",
     "title": "Mittagspause",
     "track": {
-      "order": 1,
+      "order": 5,
       "name": "Zertifizierung",
-      "id": 4
+      "id": 5
     },
-    "session_id": 66034,
-    "location": "a",
+    "session_id": "Z-2",
+    "location": "Level 4",
     "type": "Pause"
   },
   {
@@ -675,12 +687,12 @@
     "description": "LPI-Pr\u00fcfung",
     "title": "LPI Zertifizierung",
     "track": {
-      "order": 1,
+      "order": 5,
       "name": "Zertifizierung",
-      "id": 4
+      "id": 5
     },
-    "session_id": 96144,
-    "location": "a",
+    "session_id": "Z-3",
+    "location": "Level 4",
     "type": "Zertifizierung"
   },
   {
@@ -695,13 +707,15 @@
     "description": "Learn to Solder! A large variety of way cool kits are available at this workshop, all designed for total beginners to complete successfully -- and intriguing enough for the total hardware geek.",
     "title": "Learn to Solder with Cool Kits!",
     "track": {
-      "order": 1,
+      "order": 6,
       "name": "MakerSpace",
-      "id": 4
+      "id": 6
     },
-    "session_id": 40435,
-    "location": "a",
-    "type": "workshop"
+    "start_time": "2016-05-05T07:30:00+00:00",
+    "session_id": "MS-1",
+    "location": "Level 5",
+    "type": "workshop",
+    "end_time": "2016-05-05T08:00:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -715,13 +729,15 @@
     "description": "Im KidsSpace k\u00f6nnen sich Kinder und Jugendliche kreativ mit Hardware und Programmieren auseinadersetzen.",
     "title": "CodeDojo",
     "track": {
-      "order": 1,
+      "order": 6,
       "name": "MakerSpace",
-      "id": 4
+      "id": 6
     },
-    "session_id": 16959,
-    "location": "a",
-    "type": "Kids Maker Space"
+    "start_time": "2016-05-05T07:30:00+00:00",
+    "session_id": "MS-2",
+    "location": "Level 5",
+    "type": "Kids Maker Space",
+    "end_time": "2016-05-05T08:00:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -735,13 +751,15 @@
     "description": "How can fabrics conduct electricity and is it possible to build electric circuits out of paper? In our 3 hour workshop children aged 6 and older will have the possibility to tinker and explore the impact of electricity in a playful way. They can craft figures made out of paper or felt and enrich them with electric functions. With our workshop we wanna share the fascination of technology with kids and want to encourage them to hack and tinker around with everyday objects. ",
     "title": "Wir Bauen Tolle Sachen und T\u00fcfteln mit Elektronik, Papier, Knete und Stoff",
     "track": {
-      "order": 1,
+      "order": 6,
       "name": "MakerSpace",
-      "id": 4
+      "id": 6
     },
-    "session_id": 98196,
-    "location": "a",
-    "type": "Kids Maker Space"
+    "start_time": "2016-05-05T07:30:00+00:00",
+    "session_id": "MS-3",
+    "location": "Level 5",
+    "type": "Kids Maker Space",
+    "end_time": "2016-05-05T08:00:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -755,13 +773,15 @@
     "description": "Auch 2015 konnten junge Hacker_innen bei Jugend Hackt zeigen, wie sie mit Code die Welt verbessern. In 5 Events mit fast 300 Teilnehmenden und \u00fcber 50 entstandenen Projekten gab es eine Vielzahl an spannenden, lustigen und auch wegweisenden Ideen und Prototypen, wie die Junghacker_innen ihre F\u00e4higkeiten f\u00fcr eine positive Gesellschaft einsetzen. An dem Stand k\u00f6nnen einige dieser Projekte mit den jungen Entwicklern selbst diskutiert werden und es besteht die M\u00f6glichkeit sich \u00fcber die Veranstaltungen 2016 zu informieren Jugend Hackt ist ein Hackathon f\u00fcr Jugendliche zwischen 12 und 18 Jahren, welcher seit 2013 von der Open Knowledge Foundation veranstaltet wird.",
     "title": "Jugend Hackt",
     "track": {
-      "order": 1,
+      "order": 6,
       "name": "MakerSpace",
-      "id": 4
+      "id": 6
     },
-    "session_id": 74379,
-    "location": "a",
-    "type": "Exhibition Area"
+    "start_time": "2016-05-05T07:30:00+00:00",
+    "session_id": "MS-4",
+    "location": "Level 5",
+    "type": "Exhibition Area",
+    "end_time": "2016-05-05T08:00:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -775,13 +795,15 @@
     "description": "We will connect our Query Service Wikidata Talk with a exhibition area to build queriey's with people and introduce them to wikidata.",
     "title": "Query Service Wikidata ",
     "track": {
-      "order": 1,
+      "order": 6,
       "name": "MakerSpace",
-      "id": 4
+      "id": 6
     },
-    "session_id": 64536,
-    "location": "a",
-    "type": "Exhibition Area, Table with Laptops, cushions"
+    "start_time": "2016-05-05T07:30:00+00:00",
+    "session_id": "MS-5",
+    "location": "Level 5",
+    "type": "Exhibition Area, Table with Laptops, cushions",
+    "end_time": "2016-05-05T08:00:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -795,13 +817,15 @@
     "description": "Beim Postapokalyptischen Schmuck-Workshop k\u00f6nnen Teilnehmende der OpenTechSummit aus Fundst\u00fccken vom Veranstaltungsgel\u00e4nde, aus Resten anderer dort stattfindender Workshops oder aus einem bereitgestellten Fundus Schmuck herstellen und sich ganz pers\u00f6nliche Unikate mit nach Hause nehmen. Passend zum Thema Makerbewegung werden hier u.a. 3D-Druck-Reste und -Fehldrucke, Lasercutter-Abschnitte sowie Elektroschrott zur Schmuckproduktion zur Verf\u00fcgung stehen. Es sollen \u00c4sthetikbewusstsein und bewussterer Umgang mit Ressourcen vermittelt werden, wobei gleichzeitig die Abfallmenge der Veranstaltung geringf\u00fcgig dezimiert wird.  We make jewellery from found objects from the Open Tech Summit or from leftovers of other workshops. Feel free to bring own material or choose from provided stuff, there will be lots of 3d-printer-deposit, electronic scrap, lasercutter-leavings!",
     "title": "postapokalyptischer schmuck / postapocalyptic jewellery",
     "track": {
-      "order": 1,
+      "order": 6,
       "name": "MakerSpace",
-      "id": 4
+      "id": 6
     },
-    "session_id": 55875,
-    "location": "a",
-    "type": "Workshop/Exhibition"
+    "start_time": "2016-05-05T07:30:00+00:00",
+    "session_id": "MS-6",
+    "location": "Level 5",
+    "type": "Workshop/Exhibition",
+    "end_time": "2016-05-05T08:00:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -815,13 +839,15 @@
     "description": "Matthias und Nora vom Code Week Team stellen den Code Week Award vor und zeigen einen Live-Hack. Wir programmieren ein Computerspiel in nur 15 Minuten und spielen mit euch. Wer gewinnt, bekommt von uns einen \u00dcberraschungs-Preis.  Unter dem Motto \u201cJede Woche ist Code Week\u201d f\u00f6rdert der Code Week Award spielerische und kreative Workshop-Formate und digitale Kompetenzen bei Kindern und Jugendlichen in ganz Deutschland. Der Award wurde ankn\u00fcpfend an den Erfolg der EU Code Week im Oktober 2014 erstmalig von der Technologiestiftung Berlin und dem Design Research Lab der Universit\u00e4t der K\u00fcnste Berlin ausgeschrieben und durch die Unterst\u00fctzung von Samsung ins Leben gerufen. 2016 findet bereits die zweite Ausgabe des Awards statt, der in den vergangenen beiden Jahren bereits hunderte Kindern und Jugendlichen einen kreativen Umgang mit digitalen Technologien erm\u00f6glicht hat. ",
     "title": "Code Week Award Live-Hack",
     "track": {
-      "order": 1,
+      "order": 6,
       "name": "MakerSpace",
-      "id": 4
+      "id": 6
     },
-    "session_id": 24458,
-    "location": "a",
-    "type": "Exhibition"
+    "start_time": "2016-05-05T07:30:00+00:00",
+    "session_id": "MS-7",
+    "location": "Level 5",
+    "type": "Exhibition",
+    "end_time": "2016-05-05T08:00:00+00:00"
   },
   {
     "py/object": "models.Session",
@@ -835,12 +861,14 @@
     "description": "We would like to shortly introduce the Heart of Code, a Berlin based hackspace for women*. ",
     "title": "Heart Of Code - a hackspace for women* in Berlin",
     "track": {
-      "order": 1,
+      "order": 6,
       "name": "MakerSpace",
-      "id": 4
+      "id": 6
     },
-    "session_id": 95329,
-    "location": "a",
-    "type": "Exhibition"
+    "start_time": "2016-05-05T07:30:00+00:00",
+    "session_id": "MS-8",
+    "location": "Level 5",
+    "type": "Exhibition",
+    "end_time": "2016-05-05T08:00:00+00:00"
   }
 ]}
