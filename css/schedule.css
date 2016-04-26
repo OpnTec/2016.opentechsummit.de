@@ -59,7 +59,7 @@ a.speaker-social:hover {
 .session-list .label {
   background: #ff8700;
   border-color: #ebccd1;
-  color: #ffff;
+  color: #FFFFFF;
   font-weight: 500;
 }
 
@@ -105,4 +105,10 @@ body {
     width: 25%;
     text-align: right;
   }
+}
+
+.btn-sign-up {
+  background: #ff8700;
+  color: #FFFFFF;
+  margin-left: 5px;
 }
