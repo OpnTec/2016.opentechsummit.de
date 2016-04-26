@@ -128,3 +128,8 @@ body {
   opacity: 1;
   top:0;
 }
+.btn-sign-up {
+  background: #ff8700;
+  color: #FFFFFF;
+  margin-left: 5px;
+}
