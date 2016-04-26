@@ -59,7 +59,7 @@ a.speaker-social:hover {
 .session-list .label {
   background: #ff8700;
   border-color: #ebccd1;
-  color: #ffff;
+  color: #FFFFFF;
   font-weight: 500;
 }
 
@@ -105,4 +105,26 @@ body {
     width: 25%;
     text-align: right;
   }
+}
+
+#day-menu .dropdown-menu{
+  display: block;
+  opacity: 0;
+  top: -500px;
+  -moz-transition:    opacity 500ms ease;
+  -webkit-transition: opacity 500ms ease;
+  -o-transition:      opacity 500ms ease;
+  -ms-transition:     opacity 500ms ease;
+  transition:         opacity 500ms ease;
+}
+#day-menu>.dropdown-toggle:hover + .dropdown-menu {
+  display: block;
+  opacity: 1;
+  top:0;
+}
+
+#day-menu .dropdown-menu:hover {
+  display: block;
+  opacity: 1;
+  top:0;
 }
