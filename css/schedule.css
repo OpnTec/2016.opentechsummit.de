@@ -133,3 +133,12 @@ body {
   color: #FFFFFF;
   margin-left: 5px;
 }
+.inputbox {
+  width:35%;;
+  padding: 4px;
+  margin-left: 5px;
+}
+::selection {
+  background-color: #ff8700;
+  color: #FFFFFF;
+};
