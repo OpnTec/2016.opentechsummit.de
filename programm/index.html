@@ -20,8 +20,8 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="shortcut icon" href="../fossasia.ico" type="image/x-icon" />
   <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"/>
 
   <link rel="stylesheet" href="../css/schedule.css">
 
@@ -33,49 +33,70 @@
     </head>
     <body>
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button
-          type="button"
-          class="navbar-toggle collapsed"
-          data-toggle="collapse"
-          data-target="#navbar"
-          aria-expanded="false">
-          <span>Menu</span>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false">
+            <span>Menu</span>
           </button>
           <a class="navbar-brand" href="//opentechsummit.net/">
             <img alt="Logo" class="logo logo-dark" src="../img/Logo_OpenTecSummit_TXT_grey.png">
           </a>
         </div>
         <div class="collapse navbar-collapse" id="navbar">
-          <ul class="nav nav-navbar navbar-left">
+          <ul class="nav navbar-nav">
             <li class="dropdown" id="day-menu">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false">
-                Thu, May 05
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#2016-05-05-maker-space">Maker Space</a></li>
-                <li><a href="#2016-05-05-workshops">Workshops</a></li>
-                <li><a href="#2016-05-05-ots-1">OTS 1</a></li>
-                <li><a href="#2016-05-05-ots-2">OTS 2</a></li>
-                <li><a href="#2016-05-05-lightning-talks">Lightning Talks</a></li>
-                <li><a href="#2016-05-05-zertifizierung">Zertifizierung</a></li>
-              </ul>
-            </li>
+              <a
+              href="#"
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false">
+              Thu, May 05
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#2016-05-05-maker-space">Maker Space</a></li>
+              <li><a href="#2016-05-05-workshops">Workshops</a></li>
+              <li><a href="#2016-05-05-ots-1">OTS 1</a></li>
+              <li><a href="#2016-05-05-ots-2">OTS 2</a></li>
+              <li><a href="#2016-05-05-lightning-talks">Lightning Talks</a></li>
+              <li><a href="#2016-05-05-zertifizierung">Zertifizierung</a></li>
+            </ul>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://opentechsummit.net"><i class="fa fa-lg fa-home"></i></a></li>
-            <li><a href="https://twitter.com/opntec"><i class="fa fa-lg fa-twitter"></i></a></li>
-            <li><a href="https://github.com/opentechsummit"><i class="fa fa-lg fa-github"></i></a></li>
-            <li><a href="https://www.facebook.com/OpenTechSummit"><i class="fa fa-lg fa-facebook"></i></a></li>
-            <li><a href="https://www.flickr.com/search/?q&#x3D;openxlab"><i class="fa fa-lg fa-"></i></a></li>
-            <li><a href="https://plus.google.com/u/0/111141930325574830495"><i class="fa fa-lg fa-google-plus"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCJoKp-gG2t7lH5_hiKp95yA"><i class="fa fa-lg fa-youtube"></i></a></li>
-            <li><a href=""><i class="fa fa-lg fa-linkedin"></i></a></li>
-          </ul>
+          <div class="pull-right">
+            <div class="btn">
+              <a href="http://opentechsummit.net"><i class="fa fa-lg fa-home"></i></a>
+            </div>
+            <div class="btn">
+              <a href="https://twitter.com/opntec"><i class="fa fa-lg fa-twitter"></i></a>
+            </div>
+            <div class="btn">
+              <a href="https://github.com/opentechsummit"><i class="fa fa-lg fa-github"></i></a>
+            </div>
+            <div class="btn">
+              <a href="https://www.facebook.com/OpenTechSummit"><i class="fa fa-lg fa-facebook"></i></a>
+            </div>
+            <div class="btn">
+              <a href="https://www.flickr.com/search/?q&#x3D;openxlab"><i class="fa fa-lg fa-"></i></a>
+            </div>
+            <div class="btn">
+              <a href="https://plus.google.com/u/0/111141930325574830495"><i class="fa fa-lg fa-google-plus"></i></a>
+            </div>
+            <div class="btn">
+              <a href="https://www.youtube.com/channel/UCJoKp-gG2t7lH5_hiKp95yA"><i class="fa fa-lg fa-youtube"></i></a>
+            </div>
+            <div class="btn">
+              <a href=""><i class="fa fa-lg fa-linkedin"></i></a>
+            </div>
+          </div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -111,7 +132,7 @@
                     <a class="session-link" href="#MS-1">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-1" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-1" style="display:none;">
                     <a class="video-link" href="https://www.youtube.com/channel/UCJoKp-gG2t7lH5_hiKp95yA" target="_blank">
                       <i class="fa fa-youtube-play fa-2x"></i>
                     </a>
@@ -181,7 +202,7 @@
                     <a class="session-link" href="#MS-2">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-2" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-2" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -244,7 +265,7 @@
                     <a class="session-link" href="#MS-6">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-6" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-6" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -304,7 +325,7 @@
                     <a class="session-link" href="#MS-5">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-5" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-5" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -348,7 +369,7 @@
                     <a class="session-link" href="#MS-10">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-10" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-10" style="display:none;">
                     <a href="http://www.meetup.com/OpenXLab/events/230593089/" class="btn btn-xs btn-sign-up"> Sign up </a>
                   </h4>
                   <p class="session-location">
@@ -415,7 +436,7 @@
                     <a class="session-link" href="#MS-4">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-4" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-4" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -475,7 +496,7 @@
                     <a class="session-link" href="#MS-7">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-7" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-7" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -535,7 +556,7 @@
                     <a class="session-link" href="#MS-8">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-8" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-8" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -598,7 +619,7 @@
                     <a class="session-link" href="#MS-3">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-3" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-3" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -664,7 +685,7 @@
                     <a class="session-link" href="#MS-9">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-9" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-9" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -721,7 +742,7 @@
                     <a class="session-link" href="#MS-11">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#MS-11" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#MS-11" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 5
@@ -789,7 +810,7 @@
                     <a class="session-link" href="#W-1">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#W-1" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#W-1" style="display:none;">
                     <a href="http://www.meetup.com/OpenXLab/events/230435191/" class="btn btn-xs btn-sign-up"> Sign up </a>
                   </h4>
                   <p class="session-location">
@@ -856,7 +877,7 @@
                     <a class="session-link" href="#W-5">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#W-5" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#W-5" style="display:none;">
                     <a href="http://www.meetup.com/Software-Craftsmanship-Berlin/events/230566242/" class="btn btn-xs btn-sign-up"> Sign up </a>
                   </h4>
                   <p class="session-location">
@@ -920,7 +941,7 @@
                     <a class="session-link" href="#W-2">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#W-2" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#W-2" style="display:none;">
                     <a href="http://www.meetup.com/OpenXLab/events/230446672/" class="btn btn-xs btn-sign-up"> Sign up </a>
                   </h4>
                   <p class="session-location">
@@ -984,7 +1005,7 @@
                     <a class="session-link" href="#W-3">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#W-3" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#W-3" style="display:none;">
                     <a href="http://www.meetup.com/OpenXLab/events/230447656/" class="btn btn-xs btn-sign-up"> Sign up </a>
                   </h4>
                   <p class="session-location">
@@ -1048,7 +1069,7 @@
                     <a class="session-link" href="#W-6">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#W-6" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#W-6" style="display:none;">
                     <a href="http://www.meetup.com/Software-Craftsmanship-Berlin/events/230566242/" class="btn btn-xs btn-sign-up"> Sign up </a>
                   </h4>
                   <p class="session-location">
@@ -1112,7 +1133,7 @@
                     <a class="session-link" href="#W-4">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#W-4" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#W-4" style="display:none;">
                     <a href="http://www.meetup.com/OpenXLab/events/230539055/" class="btn btn-xs btn-sign-up"> Sign up </a>
                   </h4>
                   <p class="session-location">
@@ -1187,7 +1208,7 @@
                     <a class="session-link" href="#OT-01">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-01" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-01" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1253,7 +1274,7 @@
                     <a class="session-link" href="#OT-02">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-02" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-02" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1313,7 +1334,7 @@
                     <a class="session-link" href="#OT-65">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-65" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-65" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1379,7 +1400,7 @@
                     <a class="session-link" href="#OT-03">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-03" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-03" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1442,7 +1463,7 @@
                     <a class="session-link" href="#OT-04">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-04" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-04" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1505,7 +1526,7 @@
                     <a class="session-link" href="#OT-05">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-05" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-05" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1568,7 +1589,7 @@
                     <a class="session-link" href="#OT-06">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-06" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-06" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1611,7 +1632,7 @@
                     <a class="session-link" href="#OT-07">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-07" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-07" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1671,7 +1692,7 @@
                     <a class="session-link" href="#OT-08">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-08" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-08" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1737,7 +1758,7 @@
                     <a class="session-link" href="#OT-09">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-09" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-09" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1797,7 +1818,7 @@
                     <a class="session-link" href="#OT-10">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-10" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-10" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1854,7 +1875,7 @@
                     <a class="session-link" href="#OT-11">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-11" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-11" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1914,7 +1935,7 @@
                     <a class="session-link" href="#OT-12">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-12" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-12" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -1974,7 +1995,7 @@
                     <a class="session-link" href="#OT-13">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-13" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-13" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2034,7 +2055,7 @@
                     <a class="session-link" href="#OT-14">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-14" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-14" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2100,7 +2121,7 @@
                     <a class="session-link" href="#OT-15">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-15" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-15" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2163,7 +2184,7 @@
                     <a class="session-link" href="#OT-16">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-16" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-16" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2220,7 +2241,7 @@
                     <a class="session-link" href="#OT-17">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-17" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-17" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2277,7 +2298,7 @@
                     <a class="session-link" href="#OT-18">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-18" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-18" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2343,7 +2364,7 @@
                     <a class="session-link" href="#OT-19">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-19" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-19" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2403,7 +2424,7 @@
                     <a class="session-link" href="#OT-20">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-20" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-20" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2466,7 +2487,7 @@
                     <a class="session-link" href="#OT-21">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-21" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-21" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2549,7 +2570,7 @@
                     <a class="session-link" href="#OT-23">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-23" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-23" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2615,7 +2636,7 @@
                     <a class="session-link" href="#OT-24">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-24" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-24" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2671,7 +2692,7 @@
                     <a class="session-link" href="#OT-25">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-25" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-25" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2730,7 +2751,7 @@
                     <a class="session-link" href="#OT-26">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-26" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-26" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2786,7 +2807,7 @@
                     <a class="session-link" href="#OT-27">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-27" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-27" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2852,7 +2873,7 @@
                     <a class="session-link" href="#OT-28">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT-28" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT-28" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1
@@ -2920,7 +2941,7 @@
                     <a class="session-link" href="#OT2-01">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-01" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-01" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -2986,7 +3007,7 @@
                     <a class="session-link" href="#OT2-02">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-02" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-02" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3046,7 +3067,7 @@
                     <a class="session-link" href="#OT2-03">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-03" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-03" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3112,7 +3133,7 @@
                     <a class="session-link" href="#OT2-04">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-04" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-04" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3175,7 +3196,7 @@
                     <a class="session-link" href="#OT2-05">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-05" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-05" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3238,7 +3259,7 @@
                     <a class="session-link" href="#OT2-06">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-06" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-06" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3301,7 +3322,7 @@
                     <a class="session-link" href="#OT2-07">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-07" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-07" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3344,7 +3365,7 @@
                     <a class="session-link" href="#OT2-08">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-08" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-08" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3404,7 +3425,7 @@
                     <a class="session-link" href="#OT2-09">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-09" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-09" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3470,7 +3491,7 @@
                     <a class="session-link" href="#OT2-10">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-10" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-10" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3530,7 +3551,7 @@
                     <a class="session-link" href="#OT2-11">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-11" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-11" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3587,7 +3608,7 @@
                     <a class="session-link" href="#OT2-12">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-12" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-12" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3647,7 +3668,7 @@
                     <a class="session-link" href="#OT2-13">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-13" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-13" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3707,7 +3728,7 @@
                     <a class="session-link" href="#OT2-14">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-14" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-14" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3767,7 +3788,7 @@
                     <a class="session-link" href="#OT2-15">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-15" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-15" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3833,7 +3854,7 @@
                     <a class="session-link" href="#OT2-16">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-16" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-16" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3896,7 +3917,7 @@
                     <a class="session-link" href="#OT2-17">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-17" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-17" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -3953,7 +3974,7 @@
                     <a class="session-link" href="#OT2-18">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-18" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-18" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4010,7 +4031,7 @@
                     <a class="session-link" href="#OT2-19">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-19" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-19" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4076,7 +4097,7 @@
                     <a class="session-link" href="#OT2-20">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-20" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-20" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4136,7 +4157,7 @@
                     <a class="session-link" href="#OT2-21">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-21" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-21" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4199,7 +4220,7 @@
                     <a class="session-link" href="#OT2-22">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-22" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-22" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4282,7 +4303,7 @@
                     <a class="session-link" href="#OT2-24">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-24" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-24" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4348,7 +4369,7 @@
                     <a class="session-link" href="#OT2-25">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-25" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-25" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4404,7 +4425,7 @@
                     <a class="session-link" href="#OT2-26">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-26" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-26" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4463,7 +4484,7 @@
                     <a class="session-link" href="#OT2-27">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-27" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-27" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4519,7 +4540,7 @@
                     <a class="session-link" href="#OT2-28">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-28" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-28" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4582,7 +4603,7 @@
                     <a class="session-link" href="#OT2-29">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-29" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-29" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4648,7 +4669,7 @@
                     <a class="session-link" href="#OT2-30">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#OT2-30" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#OT2-30" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 1b
@@ -4716,7 +4737,7 @@
                     <a class="session-link" href="#LT-1">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#LT-1" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#LT-1" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 2
@@ -4779,7 +4800,7 @@
                     <a class="session-link" href="#LT-2">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#LT-2" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#LT-2" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 2
@@ -4842,7 +4863,7 @@
                     <a class="session-link" href="#LT-3">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#LT-3" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#LT-3" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 2
@@ -4908,7 +4929,7 @@
                     <a class="session-link" href="#LT-4">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#LT-4" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#LT-4" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 2
@@ -4982,7 +5003,7 @@
                     <a class="session-link" href="#Z-1">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#Z-1" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#Z-1" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 4
@@ -5039,7 +5060,7 @@
                     <a class="session-link" href="#Z-2">
                       <i class="fa fa-link"></i>
                     </a>
-                    <input class="inputbox" type="text" onclick="this.select()" value="https://opentechevent.net/programm/#Z-2" style="display:none;">
+                    <input class="inputbox" type="text" onclick="this.select()" value="http://opentechsummit.net/programm/#Z-2" style="display:none;">
                   </h4>
                   <p class="session-location">
                     Room 4
