@@ -106,7 +106,7 @@ body {
     text-align: right;
   }
 }
-@media (min-width: 450px) {
+@media (min-width: 768px) {
 
     #day-menu .dropdown-menu {
         display: block;
@@ -122,13 +122,13 @@ body {
     #day-menu > .dropdown-toggle:hover + .dropdown-menu {
         display: block;
         opacity: 1;
-        top: 0;
+        top: 50px;
     }
 
     #day-menu .dropdown-menu:hover {
         display: block;
         opacity: 1;
-        top: 0;
+        top: 50px;
     }
 }
 .btn-sign-up {
