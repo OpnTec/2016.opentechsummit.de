@@ -183,6 +183,11 @@ body {
 		line-height: 1.5; 
 	}
 }
+@media (max-width: 500px) {
+  .nav>li>a {
+    padding:8px !important;
+  }
+}
 .inputbox {
   width:35%;;
   padding: 4px;
