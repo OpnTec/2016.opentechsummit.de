@@ -106,29 +106,35 @@ body {
     text-align: right;
   }
 }
+@media (min-width: 768px) {
 
-#day-menu .dropdown-menu{
-  display: block;
-  opacity: 0;
-  top: -500px;
-  -moz-transition:    opacity 500ms ease;
-  -webkit-transition: opacity 500ms ease;
-  -o-transition:      opacity 500ms ease;
-  -ms-transition:     opacity 500ms ease;
-  transition:         opacity 500ms ease;
-}
-#day-menu>.dropdown-toggle:hover + .dropdown-menu {
-  display: block;
-  opacity: 1;
-  top:0;
-}
+    #day-menu .dropdown-menu {
+        display: block;
+        opacity: 0;
+        top: -500px;
+        -moz-transition: opacity 500ms ease;
+        -webkit-transition: opacity 500ms ease;
+        -o-transition: opacity 500ms ease;
+        -ms-transition: opacity 500ms ease;
+        transition: opacity 500ms ease;
+    }
 
-#day-menu .dropdown-menu:hover {
-  display: block;
-  opacity: 1;
-  top:0;
-}
+    #day-menu > .dropdown-toggle:hover + .dropdown-menu {
+        display: block;
+        opacity: 1;
+        top: 50px;
+    }
 
+    #day-menu > .dropdown-toggle:hover {
+        background-color: #e7e7e7;
+    }
+
+    #day-menu .dropdown-menu:hover {
+        display: block;
+        opacity: 1;
+        top: 50px;
+    }
+}
 .btn-sign-up {
   background: #ff8700;
   color: #FFFFFF;
@@ -190,4 +196,4 @@ body {
 ::selection {
   background-color: #ff8700;
   color: #FFFFFF;
-};
+}
