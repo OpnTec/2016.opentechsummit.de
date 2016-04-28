@@ -125,6 +125,10 @@ body {
         top: 50px;
     }
 
+    #day-menu > .dropdown-toggle:hover {
+        background-color: #e7e7e7;
+    }
+
     #day-menu .dropdown-menu:hover {
         display: block;
         opacity: 1;
