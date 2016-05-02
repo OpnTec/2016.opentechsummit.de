@@ -57,9 +57,9 @@ a.speaker-social:hover {
 }
 
 .session-list .label {
-  background: #ff8700;
+  background: #e12b00;
   border-color: #ebccd1;
-  color: #FFFFFF;
+  color: #ffff;
   font-weight: 500;
 }
 
@@ -105,95 +105,4 @@ body {
     width: 25%;
     text-align: right;
   }
-}
-@media (min-width: 768px) {
-
-    #day-menu .dropdown-menu {
-        display: block;
-        opacity: 0;
-        top: -500px;
-        -moz-transition: opacity 500ms ease;
-        -webkit-transition: opacity 500ms ease;
-        -o-transition: opacity 500ms ease;
-        -ms-transition: opacity 500ms ease;
-        transition: opacity 500ms ease;
-    }
-
-    #day-menu > .dropdown-toggle:hover + .dropdown-menu {
-        display: block;
-        opacity: 1;
-        top: 50px;
-    }
-
-    #day-menu > .dropdown-toggle:hover {
-        background-color: #e7e7e7;
-    }
-
-    #day-menu .dropdown-menu:hover {
-        display: block;
-        opacity: 1;
-        top: 50px;
-    }
-}
-.btn-sign-up {
-  background: #ff8700;
-  color: #FFFFFF;
-  margin-left: 5px;
-  margin-top: -5px;
-}
-
-.video-link > .fa {
-	font-size: 22px;
-	color: #757575;
-}
-
-.video-link > .fa:hover {
-	color: #e52d27;
-}
-
-.video-link  {
-	margin-left: 3px;
-}
-
-.session-link > .fa {
-	font-size: 18px;
-	color: #757575;
-}
-
-.session-link > .fa:hover {
-	color: #2196F3;
-}
-
-.session-link + .inputbox {
-  font-size: 12px;
-}
-
-@media (max-width: 450px) {
-	.session-link > .fa {
-		font-size: 24px;
-	}
-	.video-link > .fa {
-		font-size: 28px;
-	}
-	.btn-sign-up {
-		font-size: 15px;
-		margin-top: -8px;
-	}
-	.session-title {
-		line-height: 1.5; 
-	}
-}
-@media (max-width: 500px) {
-  .nav>li>a {
-    padding:8px !important;
-  }
-}
-.inputbox {
-  width:35%;;
-  padding: 4px;
-  margin-left: 5px;
-}
-::selection {
-  background-color: #ff8700;
-  color: #FFFFFF;
 }
