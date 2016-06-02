@@ -1,0 +1,68 @@
+{ "tracks":[
+  {
+    "py/object": "models.Track",
+    "key_color": "#3DC8C3",
+    "name": "Maker Space",
+    "header_line": 2,
+    "track_image_url": "http://lorempixel.com/400/200",
+    "id": 2,
+    "gid": "1760580974",
+    "location": "Room 5",
+    "order": 2
+  },
+  {
+    "py/object": "models.Track",
+    "key_color": "#3DC8C3",
+    "name": "Workshops",
+    "header_line": 2,
+    "track_image_url": "http://lorempixel.com/400/200",
+    "id": 3,
+    "gid": "1407536099",
+    "location": "Room 3",
+    "order": 3
+  },
+  {
+    "py/object": "models.Track",
+    "key_color": "#3DC8C3",
+    "name": "OTS 1",
+    "header_line": 2,
+    "track_image_url": "http://lorempixel.com/400/200",
+    "id": 4,
+    "gid": "11336237",
+    "location": "Room 1",
+    "order": 4
+  },
+  {
+    "py/object": "models.Track",
+    "key_color": "#3DC8C3",
+    "name": "OTS 2",
+    "header_line": 2,
+    "track_image_url": "http://lorempixel.com/400/200",
+    "id": 5,
+    "gid": "2134915567",
+    "location": "Room 1b",
+    "order": 5
+  },
+  {
+    "py/object": "models.Track",
+    "key_color": "#3DC8C3",
+    "name": "Lightning Talks",
+    "header_line": 2,
+    "track_image_url": "http://lorempixel.com/400/200",
+    "id": 6,
+    "gid": "1549016393",
+    "location": "Room 2",
+    "order": 6
+  },
+  {
+    "py/object": "models.Track",
+    "key_color": "#3DC8C3",
+    "name": "Zertifizierung",
+    "header_line": 2,
+    "track_image_url": "http://lorempixel.com/400/200",
+    "id": 7,
+    "gid": "1996047265",
+    "location": "Room 4",
+    "order": 7
+  }
+]}
