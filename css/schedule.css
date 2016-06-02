@@ -197,3 +197,10 @@ body {
   background-color: #ff8700;
   color: #FFFFFF;
 }
+.footer {
+  bottom: 0;
+  margin: 0;
+  color: #777;
+  padding: 15px;
+  text-align: center;
+}
