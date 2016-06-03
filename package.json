@@ -18,5 +18,8 @@
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-imagemin": "^2.1.0"
+  },
+  "dependencies": {
+    "fs-extra": "^0.30.0"
   }
 }
