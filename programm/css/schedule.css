@@ -204,3 +204,40 @@ body {
   padding: 15px;
   text-align: center;
   } 
+
+.large {
+  padding:3% ;
+  margin:1%;
+  display: block;
+  max-width:100%;
+  max-height:200px;
+  width: auto;
+  height: auto;
+}
+.medium {
+  padding:3% ;
+  margin:1%;
+  max-width:100% ;
+  max-height:140px;
+  width:auto;
+  height: auto;
+  display: block;
+}
+.small {
+  padding:3% ;
+  margin:1%;
+  max-width:100%;
+  max-height:120px;
+  width:auto;
+  height: auto;
+  display: block;
+}
+.sponsors {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin: 25px 0px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
